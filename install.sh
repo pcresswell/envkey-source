@@ -83,7 +83,7 @@ download_envkey () {
     mv envkey-source.exe $HOME/bin/
     echo "envkey-source is installed in $HOME/bin"
   else
-    sudo mv envkey-source /usr/local/bin/
+    mv envkey-source /usr/local/bin/
     echo "envkey-source is installed in /usr/local/bin"
   fi
 }
